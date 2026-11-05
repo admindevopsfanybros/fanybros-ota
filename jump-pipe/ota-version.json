@@ -1,11 +1,11 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "minNativeVersion": "1.0.0",
-  "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip?v=1.0.9&t=1793912781152",
+  "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip?v=1.0.10&t=1793913155152",
   "forceImmediate": true,
   "releaseNotes": {
-    "pt": "Versão 1.0.9: Limite máximo de velocidade (teto estrito de ~122px/s) e aceleração gradual iniciando somente a partir do 30º cano.",
-    "en": "Version 1.0.9: Max speed cap (~122px/s) and gradual acceleration starting only from the 30th pipe."
+    "pt": "Versão 1.0.10: Cenário de fundo afastado com efeito parallax (0.28x), escala reduzida e tons suaves para máxima visibilidade dos canos e foguetes.",
+    "en": "Version 1.0.10: Distant background scenery with parallax effect (0.28x), smaller scale and soft tones for optimal pipe and rocket visibility."
   },
   "remoteConfig": {
     "lossesPerAd": 6,
@@ -19,6 +19,6 @@
     "jumpFallTolerance": 115
   },
   "hotPatchJs": "(function(){try{var m=document.querySelector('main');if(m){m.style.display='flex';m.style.visibility='visible';}var h=document.querySelector('header');if(h){h.style.paddingTop='max(env(safe-area-inset-top, 0px), 36px)';}var jb=document.getElementById('manual-jump-btn');if(jb){jb.style.opacity='0.6';jb.style.backdropFilter='none';}var pb=document.getElementById('build-pipe-btn');if(pb){pb.style.opacity='0.6';pb.style.backdropFilter='none';}var lac=document.getElementById('loss-ad-counter');if(lac){lac.style.display='none';}}catch(e){}})();",
-  "sessionKey": "7u+LOPOIEUYFrVRCt52Y3Q==:bx4Uhqyil89TNsYaon+Mh1UDJLxZB1T/IdVM2HCO8kJxE+44UJ8PPH4zqJrkbReqHQwGGt+hfFesHY7cGFyctMd3PGf54X1ZVTLRqyt5Abm3ICck4TAD5fzXnC6Glr8D6o4F8CG6YLDqiS3VLUv3CnmCSB1f4CbINV4gTphf1F6Du0DWPOEQe6QPi6N+HjQGZyWApfj4fLengneeKXe5G0tCAMJG/uDbIu/a7Hd8oLO/gEYA2rmo5fxX733P1yvv27tUybGQT6Dbzy6EmOveQ47c3l8vaj5TIiNLqVodbzc0blCxVuV4URcx6jyW/YRjOvUk8cnr4WiSQYhRUL0HJg==",
-  "checksum": "1a53fcbe23574f93dc04826383fbc02474d362a4e4dc960279285f796a69fb640400f557674ef9b35db09f926c8e78f12ed250f6093ab90c1bf4716a1a1e9c20543294db79656fca3beaf00d6b8248f6b705301bd5013d0f99787dc4d9d1c2cc02f54e2b26c75a0d000e144878c5abaa07a6215c19bf008c2034fa1076edc6b8111a382f45cf7bd47412aeac81fa5c0420a0d5939e7aebdca2d4df37659f8bca8afb1120b55e243e66f09158afb8c1c89235ca1cdc99854dc7279085358af2e4cd15f24823848218d6db8103b52a12938e14a67d35450ed835ae3ae0bae3f1e2883150d93ee7a29167f8b651eeb736ba6921e67e82e30ea2a4b3f4b9db628397"
+  "sessionKey": "gyBMu1YR3XwYQkmdb/359A==:GX+oa4rXDxOAaswTTimcD43gFaqYuCWqJKGgfZAzdowliWNS2JStqmc4MQmKhYDqZrQfaITpsFtCPKb4lsolJBiJNtj4cCq11y8EFukuFB4G1Cn/EorbGWoKqh/ECpPK/s35FzqYHRzkvcFGgsTlMzwtK7K8IDLl5OXQ7xmpADzegm92xOTOGUIhU2D3nH+M89uSvIQSLxTNaWJT2odG99SqY1pKk40Y148143YmRVBDQRODnTlJSdNnZtrZWd0ClMJd4y9dJREE8gFUn7RJZoS2+nDbs5GeNWIf+QtH7IwksMbmehlnYNg7ASSjKOc0rp2y8O74xan6rJRhx7vd9Q==",
+  "checksum": "95813557fffa3cfc0494792cee021b5a6bb480ef459a0dde77cb0589e72c7f8cce91d8b12facaada8512e6bf983a28715b44e0d65522e2e7f1c288ce897c5480e5036e137ad1421bf2f4a6a58fc8f0f9d463f91c3dbac23231f5e96440431c5882faeb63bb3cbd95d4ec1309a97a16d7ff1629d2a48086ca01f38c879eec6de9c8f2be985c0eefaf96ac76645edc5c4e462d7d61479b3cde172e863e9b163fff14f3727cd2f4a2011c5267dcdbcc2dd1e834114e7228e07daff7c3ffb49c647aba301ee297252415820ef3be639384e06678c572b56c47854bf8ea7d59dc8e82db335e0e2ab5930a34330ca4baa7b417df2673886e915f1c1130f1f0a3a7c98e"
 }
