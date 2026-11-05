@@ -1,11 +1,11 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "minNativeVersion": "1.0.0",
   "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip",
-  "forceImmediate": false,
+  "forceImmediate": true,
   "releaseNotes": {
-    "pt": "Versão 1.0.2 com suporte a atualização OTA silenciosa.",
-    "en": "Version 1.0.2 with silent background OTA updates."
+    "pt": "Versão 1.0.3: Safe area superior, botões translúcidos e remoção da legenda inferior.",
+    "en": "Version 1.0.3: Top safe area, translucent buttons, and removed bottom legend."
   },
   "remoteConfig": {
     "lossesPerAd": 6,
@@ -18,6 +18,6 @@
     "jumpFallTolerance": 90
   },
   "hotPatchJs": "",
-  "sessionKey": "kGdIYrDhah/hv+CsgY1OtA==:hUo+v56uN7TNF5FDB0duosG9nrw54P6zO9wjIo+JGsk3wPwmoYE4gKPdcUivDqJHwb56Zgsz1wOIncTd3DKgH/hBzRN534b5UyfKl1z3HtWvD4KYw4X81j4NQM28Ry56GFFqwgas7gTWKJiqvAZVpQ5HPP1lO+dyn3looJuQCXzDhrFTTYOohYYOabrMRqg/fYFJbkNtF+rsZ5jzW7of6WqmQ9l2PivVPY338febQ6Iswcg448IyQCTlfCutb9dXd790fNcENerRu7/XhcQVCzNDOsov+SC62xkF3qtGgrh3vf4GBM4VpjBNm1Ymf4naKb3AlzimufO6UuTuCQ01eA==",
-  "checksum": "60b6616ddec2770a74ec15c895a5f8f2ffc88bc24217d0e81b0dc28ebb8abcbaba1ccaa86de3c8c183f411cdce7686471604b8d7799b82d3ad3731e0fffab0bad6cf062e8792bcf4d6e09b01278537ceb479f5aac47c9583ac2810c0505415771c54797c5e98c150eb355e39aa733dbe97db45c869dbeb829117c884129cb1e8ccc12c27a13f119fb4f44ccd99fe782ec26deb6afe4af233e8866b1a34ab15ac4da616b97e09ff60cbb70c89243e90c2c17b51f8d3e0f6f2df844628dfd68a9dfef5f8a7c79f7a0a4cef128a5b680c71e89637e0a68170bc135cc41a2a1d8ed8a2272759b837f069be32bc84b7044509239003c433d0f9e172bb2584e85e8e55"
+  "sessionKey": "qBCRtoU8A6lrSZxM2jS8KA==:SHVPcvCE5mEfbaAqm21WawLGNBYMd8k07OfIkrfScxXeNbbBfhL9ucLESJpV/v4aH1/uGzIeUe+BvhJK6yHbrT4mYUT35E6u6hqud5jc++DnVTnA5NkWtHY5wTQWZIE/AOu5wadGgZfJKwV27mnKicnCXq51VFHzGgvwmGBG4W9gyZYEZpGyhWtglgQxxYT4GUOB0m7h84xJrn5AjnMCq0BizXIIaBH92ne/Yl3gdfxw5vIXjM4VNTGzz3rCmVg74cgH0ie4hekNTkBBJry39R9W3PzobwROdzU7zJpuKlT5SzPlTPSZ3T+w/6yBzR6OW36CjOp4rRGoTtTD3XoBgg==",
+  "checksum": "66878ceb6e3006e89f22ba29f986a98ecf8da3599bad6bd3c8639de2c46cd40a55fac49f9f0e47b7e78addb31f3177a4a27642015f99c2b5cba09747598f52a15bdffd28592ff4a8fb5fb74e0f42fdcd5a9196f371ad90bf2f7b10eab3d8bbbcccbec5a2464e972e8712eb3b55a1dcafab95a46113facf84130243cb9de443ebba1eaf613ef4b51c22f6e71e32aecbd61e426f344238c36cdaf20041be96199c1ecee412cee24eba4e95164ad26afc72625ba2cda51a10eb3ead791c5f68ac2e8705b23a2ff055216828dd5fb55cde19b51c9919619a416a801691a7aecbb7b9e8f40b877c70e460ef24afcbacb9b6f19e2e8db21ed14d8cf5279148469fe6bb"
 }
