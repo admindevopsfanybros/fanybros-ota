@@ -1,23 +1,24 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "minNativeVersion": "1.0.0",
-  "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip?v=1.0.8&t=1793906243546",
+  "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip?v=1.0.9&t=1793912781152",
   "forceImmediate": true,
   "releaseNotes": {
-    "pt": "Versão 1.0.8: Restauração da visibilidade da tela principal (canvas e controles) e correção do hotpatch.",
-    "en": "Version 1.0.8: Restored main game screen visibility (canvas and controls) and fixed hotpatch."
+    "pt": "Versão 1.0.9: Limite máximo de velocidade (teto estrito de ~122px/s) e aceleração gradual iniciando somente a partir do 30º cano.",
+    "en": "Version 1.0.9: Max speed cap (~122px/s) and gradual acceleration starting only from the 30th pipe."
   },
   "remoteConfig": {
     "lossesPerAd": 6,
     "minSecondsBetweenAds": 95,
     "baseWalkSpeed": 94,
-    "maxSpeedBonus": 92,
-    "speedStepPerPipe": 2.5,
+    "maxSpeedBonus": 28,
+    "speedStepPerPipe": 0.9,
+    "speedRampStartPipe": 30,
     "stepUpTolerance": 42,
     "stepDownTolerance": 65,
     "jumpFallTolerance": 115
   },
   "hotPatchJs": "(function(){try{var m=document.querySelector('main');if(m){m.style.display='flex';m.style.visibility='visible';}var h=document.querySelector('header');if(h){h.style.paddingTop='max(env(safe-area-inset-top, 0px), 36px)';}var jb=document.getElementById('manual-jump-btn');if(jb){jb.style.opacity='0.6';jb.style.backdropFilter='none';}var pb=document.getElementById('build-pipe-btn');if(pb){pb.style.opacity='0.6';pb.style.backdropFilter='none';}var lac=document.getElementById('loss-ad-counter');if(lac){lac.style.display='none';}}catch(e){}})();",
-  "sessionKey": "kuRPkEg3aN27tCpXtgoCxw==:cbhRJX3yAmTUneHQD/2tNbNLEjqmh9hrJ2Ot0WDCfzqNtHLSpnX79O08jNglm1ICksU8q0+tF5TrzNi6uPI/DQjBbsPkpMKUD3SiIV8A6zy71lYwsWh1jVH8zckflhQkalMy7WsXMFF9OpHDb0NKpGfUnrwY30pnziLTlEX2PDn3MDoZtdv64mrArwH+Ccvi4PqGCrLuy5g7RX2vSjA4YHwIZckZ7BZG3NPeeSttbBBCOmhBjKmgaBEAkr/WGVisEH+Cj+Y6U5aC0NEzo6qexW3LY2b+nE1uW2l6a8CvZ3ZRlAGoptP6WVmIlUsY0B26S2hedG19zyCLBndflPjU9w==",
-  "checksum": "c464d5e6aab7119b1a056c055207bdf018fd5eba7aa56881b1bcf4f3f729fe7f65fae07f513a6737133ad33a17ace2adce80cf1c3f3fb76b9667dd97122901db1eed09a50b6293f3f421cb175e53491b3ffe578773cb1aea2957f205af470787dfbc8b3250d5af56cee85686807e111e028775816e4ae67031b655c7d2ae3fd000896bf94f869ab669dd020ddc143ead41cb918364ed8dd3da2ff06cbd011c16fb32acadef18378ae4e2ebf0b6a9cec8751da933b34419bc1e1f65eca71d83b1545ece7aa9fc221d0345d0029b8a18ecd70e8e5b2d9218ed28319419e41eb86c25c88ff3f9e28ababdb650440786cd62f33d49fbaddbfc8f1cc93cb18e94bfe6"
+  "sessionKey": "7u+LOPOIEUYFrVRCt52Y3Q==:bx4Uhqyil89TNsYaon+Mh1UDJLxZB1T/IdVM2HCO8kJxE+44UJ8PPH4zqJrkbReqHQwGGt+hfFesHY7cGFyctMd3PGf54X1ZVTLRqyt5Abm3ICck4TAD5fzXnC6Glr8D6o4F8CG6YLDqiS3VLUv3CnmCSB1f4CbINV4gTphf1F6Du0DWPOEQe6QPi6N+HjQGZyWApfj4fLengneeKXe5G0tCAMJG/uDbIu/a7Hd8oLO/gEYA2rmo5fxX733P1yvv27tUybGQT6Dbzy6EmOveQ47c3l8vaj5TIiNLqVodbzc0blCxVuV4URcx6jyW/YRjOvUk8cnr4WiSQYhRUL0HJg==",
+  "checksum": "1a53fcbe23574f93dc04826383fbc02474d362a4e4dc960279285f796a69fb640400f557674ef9b35db09f926c8e78f12ed250f6093ab90c1bf4716a1a1e9c20543294db79656fca3beaf00d6b8248f6b705301bd5013d0f99787dc4d9d1c2cc02f54e2b26c75a0d000e144878c5abaa07a6215c19bf008c2034fa1076edc6b8111a382f45cf7bd47412aeac81fa5c0420a0d5939e7aebdca2d4df37659f8bca8afb1120b55e243e66f09158afb8c1c89235ca1cdc99854dc7279085358af2e4cd15f24823848218d6db8103b52a12938e14a67d35450ed835ae3ae0bae3f1e2883150d93ee7a29167f8b651eeb736ba6921e67e82e30ea2a4b3f4b9db628397"
 }
