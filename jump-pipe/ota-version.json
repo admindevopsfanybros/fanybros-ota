@@ -1,24 +1,24 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.11",
   "minNativeVersion": "1.0.0",
-  "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip?v=1.0.10&t=1793913155152",
+  "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip?v=1.0.11&t=1793916785141",
   "forceImmediate": true,
   "releaseNotes": {
-    "pt": "Versão 1.0.10: Cenário de fundo afastado com efeito parallax (0.28x), escala reduzida e tons suaves para máxima visibilidade dos canos e foguetes.",
-    "en": "Version 1.0.10: Distant background scenery with parallax effect (0.28x), smaller scale and soft tones for optimal pipe and rocket visibility."
+    "pt": "Versão 1.0.11: 10 Níveis temáticos com canos de cores exclusivas a cada 10 canos, velocidade balanceada até o cap Insano (Nível 10), foguetes com trajetória senoidal ondulante a partir do Nível 3, controles meio a meio na tela (Esquerda: Pulo | Direita: Cano) e contagem regressiva de 3s ao reviver com anúncio.",
+    "en": "Version 1.0.11: 10 Thematic levels with unique pipe colors every 10 pipes, balanced speed capped at Level 10 (Insane), sinusoidal wavy rockets from Level 3, split-screen controls (Left: Jump | Right: Pipe), and 3s resume countdown after ad revive."
   },
   "remoteConfig": {
     "lossesPerAd": 6,
     "minSecondsBetweenAds": 95,
-    "baseWalkSpeed": 94,
-    "maxSpeedBonus": 28,
-    "speedStepPerPipe": 0.9,
-    "speedRampStartPipe": 30,
+    "baseWalkSpeed": 108,
+    "maxSpeedBonus": 36,
+    "speedStepPerPipe": 0.4,
+    "speedRampStartPipe": 10,
     "stepUpTolerance": 42,
     "stepDownTolerance": 65,
     "jumpFallTolerance": 115
   },
   "hotPatchJs": "(function(){try{var m=document.querySelector('main');if(m){m.style.display='flex';m.style.visibility='visible';}var h=document.querySelector('header');if(h){h.style.paddingTop='max(env(safe-area-inset-top, 0px), 36px)';}var jb=document.getElementById('manual-jump-btn');if(jb){jb.style.opacity='0.6';jb.style.backdropFilter='none';}var pb=document.getElementById('build-pipe-btn');if(pb){pb.style.opacity='0.6';pb.style.backdropFilter='none';}var lac=document.getElementById('loss-ad-counter');if(lac){lac.style.display='none';}}catch(e){}})();",
-  "sessionKey": "gyBMu1YR3XwYQkmdb/359A==:GX+oa4rXDxOAaswTTimcD43gFaqYuCWqJKGgfZAzdowliWNS2JStqmc4MQmKhYDqZrQfaITpsFtCPKb4lsolJBiJNtj4cCq11y8EFukuFB4G1Cn/EorbGWoKqh/ECpPK/s35FzqYHRzkvcFGgsTlMzwtK7K8IDLl5OXQ7xmpADzegm92xOTOGUIhU2D3nH+M89uSvIQSLxTNaWJT2odG99SqY1pKk40Y148143YmRVBDQRODnTlJSdNnZtrZWd0ClMJd4y9dJREE8gFUn7RJZoS2+nDbs5GeNWIf+QtH7IwksMbmehlnYNg7ASSjKOc0rp2y8O74xan6rJRhx7vd9Q==",
-  "checksum": "95813557fffa3cfc0494792cee021b5a6bb480ef459a0dde77cb0589e72c7f8cce91d8b12facaada8512e6bf983a28715b44e0d65522e2e7f1c288ce897c5480e5036e137ad1421bf2f4a6a58fc8f0f9d463f91c3dbac23231f5e96440431c5882faeb63bb3cbd95d4ec1309a97a16d7ff1629d2a48086ca01f38c879eec6de9c8f2be985c0eefaf96ac76645edc5c4e462d7d61479b3cde172e863e9b163fff14f3727cd2f4a2011c5267dcdbcc2dd1e834114e7228e07daff7c3ffb49c647aba301ee297252415820ef3be639384e06678c572b56c47854bf8ea7d59dc8e82db335e0e2ab5930a34330ca4baa7b417df2673886e915f1c1130f1f0a3a7c98e"
+  "sessionKey": "QeXZADZTHvEMjYsp7NjQ7g==:HtzTe4U1HIkVyGMIebeyZoHbQHiS2KdSI4z6cN45Q2qoKeshPqwtJ8Ejj3Zz/4CG/xbhBjwIKP39NMAmQ/GQdbNB5TG4+ZzHACwkYkR7oyPTN7QexdQ4cSv6qj5sF/k3nmC/9215ACg60JRXTr3Gns95yinZUR4PSeKQP3vcvEDjx8mYHZsPEjBALp69Q7j+bdj/eZ4lSIDSy2yMGfDxz8DfRHB5MUnSoeull17QnWEbw87r3xi4fYF1/+T2O+mP6veCtj3IUn7Ql2b21xjbZ/uBZncarT/riv3HqOKhsl7eG2TMvr92MSz2qHjScgOEVysvFBFr0fz0TgqakBsb6g==",
+  "checksum": "c39425dfca03034b2d71c88320b8b66dac87f0d720e73b09f81d7c09ec1e0b00cd9fb3e6dd3fd64ecb8f9aba3c597013f9c1cb2535217909b237667349627fe4893c8f5d8393f954ed554425424fd22563e4258adf4e250d54c8f31945f908e3f293e4e8ed47904db7d58a68bc54fec1384e97345a5325625eaa24e3cb2144b5824152eabad2b98b58c025a48dfc6912cf272be1075445e81e0e7849418e522540dee00319afc7215b4d6848f53474591bc2ebe47a77715b8834990df4d044de00006835e56ec6c547da6499364456adc98ab7e634fe01740f707d147c5aff4b2ab938e5d380faa0651b63f79189ff2bae78ad0234fff395fcb0b30d760b1131"
 }
