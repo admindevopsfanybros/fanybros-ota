@@ -1,11 +1,11 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "minNativeVersion": "1.0.0",
-  "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip?v=1.0.5&t=1793905268638",
+  "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip?v=1.0.6&t=1793905697892",
   "forceImmediate": true,
   "releaseNotes": {
-    "pt": "Versão 1.0.5: Pulo mais alto (96px), botões com 60% de opacidade, safe area superior e sem legenda inferior.",
-    "en": "Version 1.0.5: Higher jump (96px), 60% button opacity, top safe area, and no bottom legend."
+    "pt": "Versão 1.0.6: Correção na aterrissagem do pulo na beira do cano (só perde se cair fora do cano).",
+    "en": "Version 1.0.6: Fixed landing on pipe edge during jump (only lose if falling outside pipe)."
   },
   "remoteConfig": {
     "lossesPerAd": 6,
@@ -18,6 +18,6 @@
     "jumpFallTolerance": 115
   },
   "hotPatchJs": "(function(){try{var h=document.querySelector('header');if(h){h.style.paddingTop='max(env(safe-area-inset-top, 0px), 36px)';}var fp=document.getElementById('footer-pipe-pill');if(fp&&fp.parentElement&&fp.parentElement.parentElement){fp.parentElement.parentElement.style.display='none';}var jb=document.getElementById('manual-jump-btn');if(jb){jb.style.opacity='0.6';jb.style.backdropFilter='none';}var pb=document.getElementById('build-pipe-btn');if(pb){pb.style.opacity='0.6';pb.style.backdropFilter='none';}}catch(e){}})();",
-  "sessionKey": "q3HSoApX549OW6/xnJsSmQ==:rUiTHZ5y8sMMKUa79rhSeY+rSB3TXruWEv4J9M1ZvbANxeiWuQPOyRYU58sfjIgMnKp1JkuXRHB7Fd6IMNHKDXdfsUsPnygZz3PtB2PLLogPpipYe2YMVqOg9+QF9nfAW0PpVSz9TJ0qMG/ASR3m2Cv6Ua4k22Bg4aBV9dP0OKgU6jECITyiFO28X+6gTvVb/UXAukgqpoMMZ7Y1JxeUS4f4c9PPANyMElQfjvVMuyvGFgq3K8gnruCMmupiWOIqADd7VENXjDTwgjNUB2GXuHAzHcguy3MkjSBTWUjTWvkh7hRhwb0Fxrt+YzmpFBch1K+yWfVil6JOmkKIxLWj6g==",
-  "checksum": "c7c1e6d58ff00d807dc319a8022adbf4665a6e7c1ab3d85c3ea1de314a90138ed944d178d68d23c3dbadaaf23dd10e851f9320deb617585f680e305ce20b06f43ba0136d44de70a9c6e08047311380c1d7df12c0cfab8d9fd507e8fe5f6f59414c8c2d481ab7ead1e08ca182e3dc6c965478de7a460aeb057d0b5574d6d17251ae726f48674ee1fad9880c17bfb9417a158a66a3dddc1612e10bdad8211c06c2b7a0b2431436b2c17e7020c0e96d8e1f4e09b74d13b9ac94ae7082d47f1b1eff4cbad7523308a8e4647619456618001e757e02cba90cc2b0947bff0d046ba8e4c9939566b6450966c9e39b48d6126dc6ee3a96f42a880a470db03fc82f9f5174"
+  "sessionKey": "YTuTYPNl6DyWAUOwdmbj2A==:lw9kfSCduk8HzgmzgudVIGBC6CWh5gxrJohrUQtqwwYPgNRkuOfcqCbdxJBn3Hx6DoDCk4IU4subE7tEtqSrBXwAXYG2R7tDTK3zd/IG6kICZSuUQ54jej/hubS1q8TKTytNgWsBwRj96Al8Wc562EWl8+B0rhAGBwlTBoee0cFh7OZMxVLpDqgtknEupwijQv3Jekwcm1qfKtqBil4zTqRTVGdf8eHZkwE5s4G2rIrs3cgwQlbGO6mJGPOf/8ZKkN9ZtAwram/9X6fqpmQFuW7EVN5Wd8Bp4MUuPyaHoCkgPa1UEOLh5hJEXFNClc5efjuhknJaF6z2gcogEEwqxA==",
+  "checksum": "ac5de69f842490d313f984614c7c5b365a34fd8fe86bbe8d207c4187ff89280ef1eab78e00fb00c674a014216f40dd0ccfb713e547fdb0ec1508926f0c1dab16fbf4981a9814ed9948f68ea41e524d048afe5d1ea09a2a86f2f0c7e1cdc83e394757578ca85f769c22d85b2b98fd11198b287a2b8330956a826be9aa17434bf6990f5beea81b658dc49be1f78eb196c81b13fde2a43a50d651ac95306c8a094567c4ec33014486e8e7996029f0b794ddcf4ae237adcf490d36004516d2ed884aa8cffd076406e944194d678f8a41467fd20c6ac43c88897ac6a33ec4c432cc7c7fe88cf6cb5a67cfb09ca32334b5f4ef83944de87f35b92865656127fb4069a4"
 }
