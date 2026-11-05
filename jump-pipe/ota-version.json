@@ -1,11 +1,11 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "minNativeVersion": "1.0.0",
   "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip",
   "forceImmediate": true,
   "releaseNotes": {
-    "pt": "Versão 1.0.3: Safe area superior, botões translúcidos e remoção da legenda inferior.",
-    "en": "Version 1.0.3: Top safe area, translucent buttons, and removed bottom legend."
+    "pt": "Versão 1.0.4: Pulo mais alto para desviar dos foguetes e botões com 60% de opacidade.",
+    "en": "Version 1.0.4: Higher jump to dodge rockets and buttons with 60% opacity."
   },
   "remoteConfig": {
     "lossesPerAd": 6,
@@ -15,9 +15,9 @@
     "speedStepPerPipe": 2.5,
     "stepUpTolerance": 42,
     "stepDownTolerance": 65,
-    "jumpFallTolerance": 90
+    "jumpFallTolerance": 115
   },
   "hotPatchJs": "",
-  "sessionKey": "qBCRtoU8A6lrSZxM2jS8KA==:SHVPcvCE5mEfbaAqm21WawLGNBYMd8k07OfIkrfScxXeNbbBfhL9ucLESJpV/v4aH1/uGzIeUe+BvhJK6yHbrT4mYUT35E6u6hqud5jc++DnVTnA5NkWtHY5wTQWZIE/AOu5wadGgZfJKwV27mnKicnCXq51VFHzGgvwmGBG4W9gyZYEZpGyhWtglgQxxYT4GUOB0m7h84xJrn5AjnMCq0BizXIIaBH92ne/Yl3gdfxw5vIXjM4VNTGzz3rCmVg74cgH0ie4hekNTkBBJry39R9W3PzobwROdzU7zJpuKlT5SzPlTPSZ3T+w/6yBzR6OW36CjOp4rRGoTtTD3XoBgg==",
-  "checksum": "66878ceb6e3006e89f22ba29f986a98ecf8da3599bad6bd3c8639de2c46cd40a55fac49f9f0e47b7e78addb31f3177a4a27642015f99c2b5cba09747598f52a15bdffd28592ff4a8fb5fb74e0f42fdcd5a9196f371ad90bf2f7b10eab3d8bbbcccbec5a2464e972e8712eb3b55a1dcafab95a46113facf84130243cb9de443ebba1eaf613ef4b51c22f6e71e32aecbd61e426f344238c36cdaf20041be96199c1ecee412cee24eba4e95164ad26afc72625ba2cda51a10eb3ead791c5f68ac2e8705b23a2ff055216828dd5fb55cde19b51c9919619a416a801691a7aecbb7b9e8f40b877c70e460ef24afcbacb9b6f19e2e8db21ed14d8cf5279148469fe6bb"
+  "sessionKey": "CdTs6yEqruJXO/1PaZsQGg==:md7gwgeORW5sKVcjCv/uMpcwBblEW2bGeSGDRGC0jt1dZsQYKEpuOAvnvyvQeWqoNdW7S9AosFjvPIYBPyhjBq3VHu+sKu1KAJFO9P7uVDpTSwLj3h3OL0JBUjwFPAyXZYQzTOxtSjNE53c5/lWz43wsUO3vlaFQPNQMTnRQpT1jZ07KmHwADOO/MNBkKbkNSKLDPzJ3ANZ9SQl6rcC3Ey2FNiNMcocupwzCDSfsAPm0RVozCb5jTvTL+h850y/eRU8s+FFyujg1RmwnV45xxrNmnW/7mXh/jte2kjEcQiQ04xkljhrrClFzRMpyQJSFGIFpPcQKx9HJp5oVm3r3UQ==",
+  "checksum": "5d7a655bfcd7c976327e176f41665d668a1b1fe45993e9d030b5ffdf738b1edee96dc36a156ccc47724245f0c7cf5243fc9b48e3d8260087c963812661955ffd1444583f5d2b8ec97bf3fcfd05a2a345ced5869785dd61e96f84aa77b1ada9d2a115ae518efe2c43954a91ae74da2736b023912dd37b32f2af7c50e9ec2b921534e6936b83786b72b6b5f9195c3625b995f1c4ea0cc89061068de1847245838ce5d25011fa9a36763c9f8516939979209144e994004373f810460a1ee548526ecdece5a3e48fbf1f5773daabb561af9e27d5676d9931d0003a798965df538fd5aa8c431c59664193091e2ca1cae13711a9f5317ba0de0a1e3657012d6aeac078"
 }
