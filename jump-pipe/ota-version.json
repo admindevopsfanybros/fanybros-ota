@@ -1,17 +1,17 @@
 {
-  "version": "1.0.13",
+  "version": "1.0.14",
   "minNativeVersion": "1.0.0",
-  "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip?v=1.0.13&t=1793982879735",
+  "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip?v=1.0.14&t=1793984813026",
   "forceImmediate": true,
   "releaseNotes": {
-    "pt": "Versão 1.0.13: Correção crítica do escopo de foguetes ondulantes (WAVE) que travava a movimentação a partir do Nível 3 (canos 21+).",
-    "en": "Version 1.0.13: Critical fix for wave rockets variable scope causing movement freeze starting at Level 3 (pipes 21+)."
+    "pt": "Versão 1.0.14: Aumento substancial na velocidade geral, maior frequência de foguetes, foguetes duplos e triplos e jogabilidade mais eletrizante.",
+    "en": "Version 1.0.14: Substantial speed boost, higher rocket spawn rate, double & triple rocket barrages, and faster gameplay."
   },
   "remoteConfig": {
     "lossesPerAd": 6,
     "minSecondsBetweenAds": 95,
-    "baseWalkSpeed": 108,
-    "maxSpeedBonus": 36,
+    "baseWalkSpeed": 122,
+    "maxSpeedBonus": 110,
     "speedStepPerPipe": 0.4,
     "speedRampStartPipe": 10,
     "stepUpTolerance": 42,
@@ -19,6 +19,6 @@
     "jumpFallTolerance": 115
   },
   "hotPatchJs": "(function(){try{var m=document.querySelector('main');if(m){m.style.display='flex';m.style.visibility='visible';}var h=document.querySelector('header');if(h){h.style.paddingTop='max(env(safe-area-inset-top, 0px), 36px)';}var jb=document.getElementById('manual-jump-btn');if(jb){jb.style.opacity='0.6';jb.style.backdropFilter='none';}var pb=document.getElementById('build-pipe-btn');if(pb){pb.style.opacity='0.6';pb.style.backdropFilter='none';}var lac=document.getElementById('loss-ad-counter');if(lac){lac.style.display='none';}}catch(e){}})();",
-  "sessionKey": "1lU5jdDptIs6WBHyC73skw==:C/KONYQ5D7jLcpE96QxOPN5CcGrwMeE8SWhTGZzs5z7YkZbmfBKOl24vDXZpbOlHPRgXg6gHHMjtJoD8G0YMZUGTKBI4xNcdgssxkAqdTCWFNesFUxHgKqAYAPQ8/v0eNZVD1rvqiuiZN05t8T9G7BnVN1Ro5ijvhgw+R7yXE6NQeurBDjBVCqLnItbkr3l8W0RBnDp+SMtKahn4/k4dmKeqhzk298/EOwQrRslL5BtI8a4FlXJsPZtayCm1GGvYWRdSxk0XoREFkagC00gSkNF5I4IWzxiaYfxSv0CrP8M5xm/RMZjfqbOiOghjbgcvHZQ/IGo3OoY+Y7yJcONBzQ==",
-  "checksum": "1936851637d9eb1f2a66b9acedaa797c534e8dd2bb73fb60f169e8c604c7ca0ec48d0a0ec060815a129203cd406e7653a18eaa296daa23ad08f21128a843f1101e74874dd75bee1ef36d2420412c07b0b2c8fd708cb5f2c267905f1214a469ffb977a36b7308f70cbdd936a65baa9d0a2c7490bf69bf6e9a0e15f55b7e45ad19ee7864f9ed2141fd447d452a06715582c538634eb84d74e135ef5b840470b26164ed28d0f5588cfe7afe530508fa03798602aa6b3c25c7f1415b5154a5ca3160eeb9d3d1806c1b6854ee2b4123f11b367fb95a98f655ee8189bf922bb7fd8d6646eb904ecd3204358b7ef87815a2973422daa3d4ca4ff68ee187dcb5f7f341aa"
+  "sessionKey": "fKVkTc/nMHGSaPBg8Hv1cQ==:XFkONGPQvMlKngsHAYtL0t5lJQLfJ8N6duY0gir228iKuKoBosh7rYqMIZlov/JQtwkbybnTCzqLu2/yKOF06lw9AtThh/tgjCMEdEn+16V/yDftgWJDWZJX+ObJPxVdSbY6+20ayFM/bxm2D0wLpx/2/7eKHWs17853pr+W3EQLrd3u8KdKpBzx81LZ31Dj797KNXgJrmScZXaDw86nfgE8WMW72TGo9ETpduaGmf9UjulKTq3Xt7grkE94UH6c81XCK7jLyUffCllxHfu99n9yM2OpMdxaP/A8HRG2ofIzTKUab6v7RUh8LgdXX0abQRXvLc4YXAb81rI9NETgUg==",
+  "checksum": "67186d3bc26eb358b6b9177cfe9033e93579b1acb35d76ee91d6726e315b28fa190e67b982c0fffd2f6349d2838b817401e651ab53a8197a101aa9658d8df1800a6486d087e404d41a77b9796ab080be8c5db0b72012611ddb646078e6ba73c61d2d2e6c81b42350e2f1a9404272909881dad94043e952fcf9d47dcfca8b905809176d1f770f972a7912cc2ce1a0f7e8bd51b2c3297acc4eabd003ba53f5c73506b6802f8bf61d60c67400aabd82d1c16c26ccadf1b10eea9cd9a1c4681754383fff7420a58dd66b2c0e7f9ccc23fce1be418a13132cc787cc96ff59889404c466ae0beae96a759ab9b549a9e744723cb3f78cd2d9701c8f172f8e7c8e5a3115"
 }
