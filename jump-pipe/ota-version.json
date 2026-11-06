@@ -1,11 +1,11 @@
 {
-  "version": "1.0.15",
+  "version": "1.0.16",
   "minNativeVersion": "1.0.0",
-  "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip?v=1.0.15&t=1793985892746",
+  "bundleUrl": "https://raw.githubusercontent.com/admindevopsfanybros/fanybros-ota/main/jump-pipe/ota-bundle.zip?v=1.0.16&t=1793986183797",
   "forceImmediate": true,
   "releaseNotes": {
-    "pt": "Versão 1.0.15: Desbloqueio e correção do clique nos botões Jogar de Novo e Continuar com Anúncio no Game Over em celulares touch.",
-    "en": "Version 1.0.15: Fix touch and click responsiveness for Play Again and Continue with Ad buttons on Game Over modal."
+    "pt": "Versão 1.0.16: Fim da zona segura no topo da tela com chuva de foguetes interceptores e ondas na altitude do boneco.",
+    "en": "Version 1.0.16: Eliminates ceiling safe zone with high-altitude interceptor rockets and barrage at hero height."
   },
   "remoteConfig": {
     "lossesPerAd": 6,
@@ -19,6 +19,6 @@
     "jumpFallTolerance": 115
   },
   "hotPatchJs": "(function(){try{var m=document.querySelector('main');if(m){m.style.display='flex';m.style.visibility='visible';}var h=document.querySelector('header');if(h){h.style.paddingTop='max(env(safe-area-inset-top, 0px), 36px)';}var jb=document.getElementById('manual-jump-btn');if(jb){jb.style.opacity='0.6';jb.style.backdropFilter='none';}var pb=document.getElementById('build-pipe-btn');if(pb){pb.style.opacity='0.6';pb.style.backdropFilter='none';}var lac=document.getElementById('loss-ad-counter');if(lac){lac.style.display='none';}}catch(e){}})();",
-  "sessionKey": "puw+/JNM5retElFjU2YnTA==:sIIY9ipVnAyPjZli/LdjdVikmw0RO6nKwp0aqnNiZZCl3NQ/2ai50Uvno3n7gofYxKU5a6IZ0Ba17soeQq9KXY56GSLYuHTTmyeS0N4oiU+gtHYJSUe7qIcunSTpor32thtST6LCc8y/vwQeWqcdl06AcIHRPFvu8oFixD9BAYPTR7EMKisgG7IzzDaWevSft/njMTjavzU7gxNWZAT13Nq021ttRwpNMAEOuV6AyTp3wKQHuUF6ySjGtk3yQJ1LOrbgebqkZzR/BzXhCLq3PDNyNyZ6pmkw9gYmgvEDU1yc4pax99kn/vVaU3rM3eljXiNyFwXypZ/p8QEV25fULw==",
-  "checksum": "321da5be9d5a35e29e5fc3964bee2c3ebda774d6a8d69174d55cf6469400b0d161d45338dddb93055d6a23b589c221f1c93ec9333ceab31e8dd633cf34113bbf825443d635ef29eb5fcef90587d418b394d963a2e71a64ed68b4ead3dc06473db94b5b1a1c6b6171d53c13fc0b1b0c74d5ee37baeab65a4dfb193631d13d683a417e403212652720b7d0e9c4787d5960768b4075cf1bd534373e43ac0b0e78c56e6edc9bb7ff9238cf7c5924946762dcb09949476685a58e8f6cb7ad6d3d22177cc5577e414da0e32e9b3b6a1c545280837f43e5721f81a83b6718fe256a4184456335abf8728eecf152378e539268d8a2a263e1484fb50939dbc223d7900ae8"
+  "sessionKey": "lTYCej0DewQRTRySdw+ikw==:GCtXrMMZjV4ULm5jXn2UM01U99Yyim+Id0UJUssp9VgbfI657O8xHX+Ri3IRA8PVNJyoBwdEYe0jwjxznTkTGN1Cti9XzpLEc5JxNsKUxluXka666GKGDtO6vUcjo5xNKdIe8mynwry4Udbpqfwhf2DGNJV6Zl0ZAE9NDJP94GWKysVRUQCQsV3u0lFbIp+9fEwJI4t1PTHaXpnOazY/wEjxhoxhd+phsh60s8IJqSdhy/T5A1zv/6ZkAyE1U35j3GYrWL15IBBSamwJpXxaOLE2LrQyEd9vq2wf56umfclaI+nbyKb6GQresV25msLTQ4GeGr8HBxwqAFId2usrlQ==",
+  "checksum": "6fa73795e2515e0d5cdc89d3679b8b9226ff68cca10bf04397e1ba7227a84702b0395627b01f2dd87c387dd8050e91879fa693ea2bd502b6298d857bff98d39f1e80dc5f6161a852f914c865b6207a31866479b111501e857bf0a1b5ed26b78412677079d233e7c68b8d2d146cbb2727b924b882f888e8df3d6e1753897c69ffe9659710e5bd29904d0f7ac1188ccb2c4c958b85b5b78da3b3ff0d2cee6d015ff11dddc7eae3e53f7ae0416321f9cff4aede5821811666cf25ad3d8abc45f03da46f6383df36ed2c3ec5a608ea0814b4751336717a0115ca8292d8d54a80163e7c60897ad15454920a876d0622cd00c5c9b149ed6845756a3f60b429a050fe96"
 }
